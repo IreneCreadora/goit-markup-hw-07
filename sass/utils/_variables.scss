@@ -1,0 +1,44 @@
+:root {
+    --primary-text-color:#212121;
+    --secondary-text-color:#757575;
+    --white-text-color: #FFFFFF;
+    --accent-color:#2196F3;
+    --secondary-accent-color:#FFFFFF;
+    --primary-bg-color: #FFFFFF;
+    --bg-accent-color:#2F303A;
+    --pf-btn-color: #F5F4FA;
+    --features-icon-box-color:#F5F4FA;
+    --primary-social-icon-fill: #AFB1B8;
+    --secondary-social-icon-fill:#FFFFFF;
+    --clients-icon-fill: #AFB1B8;
+    --clients-icon-fill-hf:#2196F3;
+    --animation-duration: 250ms;
+    --animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color:var(--primary-bg-color);
+    color: var(--primary-text-color);
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* outline: 1px solid red;  */
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden; 
+}
