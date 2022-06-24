@@ -1,7 +1,14 @@
-@import "./base/reset";
 @import "./utils/variables";
-@import "./layout/logo";
-@import "./layout/page-header";
+@import "./utils/hidden";
+
+@import "./base/reset";
+@import "./base/common";
+
+@import "./components/container";
+@import "./components/title";
+@import "./components/logo";
+@import "./components/socials";
+
 @import "./components/hero";
 @import "./components/features";
 @import "./components/about";
@@ -9,4 +16,7 @@
 @import "./components/clients";
 @import "./components/modal";
 @import "./components/portfolio";
+
+
+@import "./layout/page-header";
 @import "./layout/footer";
